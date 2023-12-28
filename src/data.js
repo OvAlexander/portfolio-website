@@ -3,7 +3,7 @@ export const projects = [
     title: "Life Dashboard",
     subtitle: "MERN Stack",
     description: "",
-    image: "./mine-clicker-game.gif",
+    image: "./temp.png",
     link: "https://github.com/OvAlexander/life-dashboard",
   },
   {
@@ -17,14 +17,14 @@ export const projects = [
     title: "YouTube ELO Rater",
     subtitle: "Python",
     description: "",
-    image: "./mine-clicker-game.gif",
+    image: "./temp.png",
     link: "https://github.com/OvAlexander/YoutubePlaylistELO",
   },
   {
     title: "Document Text to Speech",
     subtitle: "Python, Google Cloud APIs",
     description: "",
-    image: "./mine-clicker-game.gif",
+    image: "./temp.png",
     link: "",
   },
 ];
@@ -37,20 +37,19 @@ export const hardware_projects = [
     link: "https://www.bansheeuav.tech/home",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description: "",
-    image: "./BTP.gif",
-    link: "",
+    title: "Temp",
+    subtitle: "Temp",
+    description: "Temp",
+    image: "./temp.png",
+    link: "Temp",
   },
 ];
 export const skills = ["Javascript", "Python", "C/C++", "Robotics"];
 export const testimonials = [
   {
-    name: "React Reserve",
-    quote: "MERN Stack",
-    company:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-  },
+    name: "Temp",
+    quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    company: "Temp Co",
+    image: "./temp.png",
+    },
 ];

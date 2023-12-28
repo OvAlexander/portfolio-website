@@ -8,9 +8,9 @@ import Contact from "./components/Contact";
 
 export default function App() {
   return (
-    <main className="text-blue-400 bg-gray-900 body-font">
+    <main className="text-blue-400 bg-primary body-font">
       <Navbar />
-      <About />
+      <About /> 
       <Projects />
       <Skills />
       <Testimonials />

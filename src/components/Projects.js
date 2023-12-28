@@ -16,9 +16,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Software related projects based on web technologies and embedded applications.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -55,9 +53,7 @@ export default function Projects() {
             Things I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            Hardware related projects based on robotics and electronics.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
