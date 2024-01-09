@@ -3,7 +3,7 @@ export const projects = [
     title: "Life Dashboard",
     subtitle: "MERN Stack",
     description: "",
-    image: "./temp.png",
+    image: "./life-dashboard.png",
     link: "https://github.com/OvAlexander/life-dashboard",
   },
   {
@@ -11,20 +11,20 @@ export const projects = [
     subtitle: "HTML, CSS, and Javascript",
     description: "",
     image: "./mine-clicker-game.gif",
-    link: "https://github.com/OvAlexander/mining_clicker_game",
+    link: "./miner/index.html",
   },
   {
     title: "YouTube ELO Rater",
     subtitle: "Python",
     description: "",
-    image: "./temp.png",
+    image: "./youtube-elo-log.png",
     link: "https://github.com/OvAlexander/YoutubePlaylistELO",
   },
   {
     title: "Document Text to Speech",
     subtitle: "Python, Google Cloud APIs",
     description: "",
-    image: "./temp.png",
+    image: "./tts.png",
     link: "",
   },
 ];
@@ -36,13 +36,13 @@ export const hardware_projects = [
     image: "./BTP.gif",
     link: "https://www.bansheeuav.tech/home",
   },
-  {
-    title: "Temp",
-    subtitle: "Temp",
-    description: "Temp",
-    image: "./temp.png",
-    link: "Temp",
-  },
+  // {
+  //   title: "Temp",
+  //   subtitle: "Temp",
+  //   description: "Temp",
+  //   image: "./temp.png",
+  //   link: "Temp",
+  // },
 ];
 export const skills = ["Javascript", "Python", "C/C++", "Robotics"];
 export const testimonials = [
