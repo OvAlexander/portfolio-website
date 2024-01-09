@@ -28,7 +28,7 @@ export default function Contact() {
     <section id="contact" className="relative bg-secondary">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap text-white">
         <div className="lg:w-3/4 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-        <iframe src="./Alex_Ov_Resume.pdf" width="100%" height="100%" />
+        <iframe title="resume" src="./Alex_Ov_Resume.pdf" width="100%" height="100%" />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
