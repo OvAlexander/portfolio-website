@@ -21,9 +21,9 @@ export default function Navbar() {
           {/* <a href="/blog" className="mr-5 hover:text-white">
             Blog
           </a> */}
-          <a href="/#testimonials" className="mr-5 hover:text-white">
+          {/* <a href="/#testimonials" className="mr-5 hover:text-white">
             References
-          </a>
+          </a> */}
         </nav>
         {/* <a
           className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
