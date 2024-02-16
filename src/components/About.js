@@ -8,8 +8,8 @@ export default function About() {
             <br className="" />
           </h1>
           <p className="mb-8 leading-relaxed">
-            Highly motivated software engineer seeking opportunities to employ
-            my skills in the design of impactful apps in the US. apps.
+          I am a highly motivated computer engineer seeking opportunities to employ my skills in the design of impactful robots and apps in the U.S.
+          Utilizing my strong background in robotics and software engineer.
           </p>
           <div className="flex justify-center">
             <a
