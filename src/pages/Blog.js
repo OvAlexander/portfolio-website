@@ -14,7 +14,7 @@ const fetchData = async () => {
 };
 
 export default function Blog() {
-  const [data, setData] = useState(null);
+  // const [data, setData] = useState(null);
 
     useEffect(() => {
         fetchData();
@@ -24,7 +24,7 @@ export default function Blog() {
     <main className="">
       <Navbar />
       <div className="grid grid-cols-2 gap-10 flex flex-row min-h-screen justify-center items-center">
-        {data}
+        {/* {data} */}
         <Post />
         <Post />
         <Post />
