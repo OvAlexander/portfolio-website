@@ -3,11 +3,11 @@ export default function About() {
     <section id="about" className="bg-secondary">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center text">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-back">
+          <h1 className="title-font sm:text-7xl text-7xl mb-4 font-medium text-back">
             Alex Ov - Computer Engineer
             <br className="" />
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 sm:text3xl text-3xl leading-relaxed">
           I am a highly motivated computer engineer seeking opportunities to employ my skills in the design of impactful robots and apps in the U.S.
           Utilizing my strong background in robotics and software engineer.
           </p>
