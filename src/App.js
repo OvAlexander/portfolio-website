@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
+import Project from "./pages/Project";
 // import Navbar from "./components/Navbar";
 // import About from "./components/About";
 // import Projects from "./components/Projects";
@@ -15,6 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/blog" element={<Blog />}/>
+        <Route path="/project" element={<Project />}/>
       </Routes>
     </BrowserRouter>
     // <main className="text-blue-400 bg-primary body-font">
