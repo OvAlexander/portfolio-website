@@ -2,7 +2,17 @@ export const projects = [
   {
     title: "Life Dashboard",
     subtitle: "MERN Stack",
-    description: "Full stack application where users can track information about their life",
+    description: 
+    `
+    Full stack application where users can track information about their life.
+    Full stack application where users can track information about their life
+    Full stack application where users can track information about their life
+    Full stack application where users can track information about their life
+    Full stack application where users can track information about their life
+    Full stack application where users can track information about their life
+    Full stack application where users can track information about their life
+    `,
+
     image: "./life-dashboard.png",
     link: "https://github.com/OvAlexander/life-dashboard",
   },
@@ -30,43 +40,43 @@ export const projects = [
 ];
 export const hardware_projects = [
   {
-    title: "Arduino, Autonomous, Motor Control, Python, Raspberry Pi, and Sensors",
-    subtitle: "Battery Transfer Pod",
+    title: "Battery Transfer Pod",
+    subtitle: "Arduino, Autonomous, Motor Control, Python, Raspberry Pi, and Sensors",
     description: "Robotic Arm utilizing computer vision and TCP/IP Protocol",
     image: "./pod_white.png",
     link: "https://www.bansheeuav.tech/home",
   },
   {
-    title: "Arduino, Autonomous, Motor Control, Python, and Sensors",
-    subtitle: "Battery Vending Machine",
+    title: "Battery Vending Machine",
+    subtitle: "Arduino, Autonomous, Motor Control, Python, and Sensors",
     description: "Automated battery charging carousel, powered by a stepper motor",
     image: "./3dBVM.png",
     link: "https://www.bansheeuav.tech/home",
   },
   {
-    title: "Arduino, and Sensors",
-    subtitle: "Smart Irrigation System using Microcontrollers",
+    title: "Smart Irrigation System using Microcontrollers",
+    subtitle: "Arduino, and Sensors",
     description: "Automated plant watering system based on environmental variables to extend life of plants",
     image: "./sism.png",
     link: "./SISM_Report.pdf",
   },
   {
-    title: "Autonomous, PID Control, and VEX",
-    subtitle: "VEX Robotics In the Zone",
+    title: "VEX Robotics In the Zone",
+    subtitle: "Autonomous, PID Control, and VEX",
     description: "Robot created to place and extract cones to place on goals both autonomously and remote controlled",
     image: "./ITZ.jpg",
     link: "",
   },
   {
-    title: "Arduino, IoT, and Python",
-    subtitle: "RFID Attendance",
+    title: "RFID Attendance",
+    subtitle: "Arduino, IoT, and Python", 
     description: "RFID based attendance system synced to a web app with storing time and data of attendes' entrance",
     image: "./rfid.png",
     link: "./RFID_report.pdf",
   },
   {
-    title: "Arduino, CAD, and VEX",
-    subtitle: "Cat Tree Attachments",
+    title: "Cat Tree Attachments",
+    subtitle: "Arduino, CAD, and VEX",
     description: "Toy attachments for cat trees",
     image: "./cat_dome.png",
     link: "./EDD_Poster.pdf",

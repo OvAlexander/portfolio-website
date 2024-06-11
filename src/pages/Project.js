@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
-import Carousel from "../components/Carousel";
+import ProjectList from "../components/ProjectList";
 function Project() {    
     return(
         <main>
             <div>
                 <Navbar />
-                <h1>Test</h1>
-                <Carousel />
+                <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+                        <ProjectList />
+                </div>
             </div>
         </main>
 
