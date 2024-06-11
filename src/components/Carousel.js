@@ -15,7 +15,7 @@ export default function Carousel({
       if (!autoSlide) return
       const slideInterval = setInterval(next, autoSlideInterval)
       return () => clearInterval(slideInterval)
-    }, [])
+    })
     return (
       <div className="overflow-hidden relative">
         <div className="flex transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr * 25}%)` }}>

@@ -9,7 +9,6 @@ https://github.com/remix-run/react-router/discussions/8588
 import React from 'react';
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import Carousel from "../components/Carousel";
 import Skills from "../components/Skills";
 // import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
