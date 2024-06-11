@@ -41,9 +41,9 @@ module.exports = {
 
         "moon": "#5FA1B8", //moonstone buttons
         "sea": "#F6F7F8",  //seasalt background type color
+        "sea-100": "#F6F7F8",  //seasalt background type color
         "pomp": "#9C6496", //pomp and power, through out page
         "finn": "#633C75",    //finn, header
-        "blk": "#26730"         //raisin black
       },
     },  
   },
