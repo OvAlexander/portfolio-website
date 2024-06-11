@@ -8,87 +8,61 @@ fix transitions when hovering over button
 make side by side gallery
 rename file
 https://www.hyperui.dev/
+"lg:w-2/3 mx-auto leading-relaxed text-base"
 */
 export default function ProjectList(){
     return(
-        <div className="w-full mb-20 body-font text-black">
+        <div className="w-full bg-sea text-center text-black">
             <div>
-            <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
-                    Apps I've Built
-                </h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Software related projects based on web technologies and applications.
-                </p>
+                <CodeIcon className="mx-auto inline-block w-10" />
+                <h1 className="mb-3   text-3xl lg:text-5xl font-medium">Apps I've Built</h1>
+                <p className="mb-3 text-xl lg:text-2xl">Software related projects based on web technologies and applications.</p>
             </div>
-            <br></br>
-            {
-            projects.map((project) => (
-            <article class="group">
-                <div className="flex flex-row -m-4">
-                    <div className="w-3/5 p-4">
-                    <a href= {project.link}>
-                        <img
-                            alt=""
-                            src={project.image}
-                            class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
-                        />
-
-                        <div class="p-4">
-                            <a href={project.link}>
-                            <h3 class="text-lg font-medium text-gray-900">{project.title}</h3>
+            {projects.map((project) => (
+                <div className="">
+                    <div className="text-pomp bg-sea lg:flex">
+                        <div className="flex-none">
+                            <a href= {project.link}>
+                                <img
+                                    alt=""
+                                    src={project.image}
+                                    className="h-auto max-w-full lg:w-[30vw] mx-auto rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
+                                />
+                                <p className="text-lg font-medium text-gray-900">{project.title}</p>
+                                <p className="text-center text-xl">{project.subtitle}</p>
                             </a>
-
-                            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                                {project.subtitle}
-                            </p>
-                        </div>  
-                    </a>
-                    </div>
-                    <div className="w-2/5 h-40 p-4 text-ellipsis overflow-hidden text-left">
-                        <p>{project.description}</p>
+                        </div>
+                        <div className="flex-initial bg-sea-100 text-black text-left text-2xl px-5">
+                            <p>{project.description}</p>
+                        </div>
                     </div>
                 </div>
-            </article>
             ))}
 
-            <div className="flex flex-col w-full mb-20">
-                <DesktopComputerIcon className="mx-auto inline-block w-10 mb-4" />
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
-                    Things I've Built
-                </h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                    Hardware related projects based on robotics and electronics.
-                </p>
+            <div>
+                <DesktopComputerIcon className="mx-auto inline-block w-10" />
+                <h1 className="mb-3   text-3xl lg:text-5xl font-medium"> Things I've Built</h1>
+                <p className="mb-3 text-xl lg:text-2xl"> Hardware related projects based on robotics and electronics.</p>
             </div>
-            {
-            hardware_projects.map((hardware_projects) => (
-            <article class="group">
-                <div className="flex flex-row -m-4">
-                    <div className="w-3/5 p-4">
-                    <a href= {hardware_projects.link}>
-                        <img
-                            alt=""
-                            src={hardware_projects.image}
-                            class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
-                        />
-
-                        <div class="p-4">
-                            <a href={hardware_projects.link}>
-                            <h3 class="text-lg font-medium text-gray-900">{hardware_projects.title}</h3>
+            {hardware_projects.map((project) => (
+                <div className="">
+                    <div className="text-pomp bg-sea lg:flex">
+                        <div className="flex-none">
+                            <a href= {project.link}>
+                                <img
+                                    alt=""
+                                    src={project.image}
+                                    className="h-auto max-w-full lg:w-[30vw] mx-auto rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
+                                />
+                                <p className="text-lg font-medium text-gray-900">{project.title}</p>
+                                <p className="text-center text-xl">{project.subtitle}</p>
                             </a>
-
-                            <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                                {hardware_projects.subtitle}
-                            </p>
-                        </div>      
-                    </a>
-                    </div>
-                    <div className="w-2/5 p-4">
-                        <p>{hardware_projects.description}</p>
+                        </div>
+                        <div className="flex-initial bg-sea-100 text-black text-left text-2xl px-5">
+                            <p>{project.description}</p>
+                        </div>
                     </div>
                 </div>
-            </article>
             ))}
         </div>
     );
