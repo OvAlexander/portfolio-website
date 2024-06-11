@@ -13,15 +13,7 @@ import Carousel from "../components/Carousel";
 import Skills from "../components/Skills";
 // import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
-
-const slides = [
-  "./3dBVM.png",
-  "./BTP.gif",
-  "./life-dashboard.png",
-  "./pod_white.png",
-  "./sism.png",
-  "./mine-clicker-game.gif",
-]
+import ProjectGallery from '../components/ProjectGallery';
 
 function Home() {
   return (
@@ -29,14 +21,7 @@ function Home() {
         <div>    
             <Navbar />
             <About /> 
-            <p>Carousel of projects here</p>
-            <a href='/project'><p>See More!</p></a>
-            <Carousel className = "" autoSlide={true} autoSlideInterval={10000}>
-              {
-                slides.map((s) => (
-                <img src={s} alt="gallery of project images" />
-              ))}
-            </Carousel>
+            <ProjectGallery />
             <Skills />
             {/* <Testimonials /> */}
             <Contact />
