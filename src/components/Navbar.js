@@ -20,6 +20,9 @@ export default function Navbar() {
           <a href="/blog" className="mr-5 hover:text-white">
             Blog
           </a>
+          <a href="/project" className="mr-5 hover:text-white">
+            Projects
+          </a>
           {/* <Link to="/blog" className="mr-5 hover:text-white">Blog</Link>
           {/* <a href="/blog" className="mr-5 hover:text-white">
             Blog

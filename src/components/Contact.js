@@ -1,4 +1,11 @@
+/*
+TODO:
+6/10/24
+Fix resume sizing
+add social logos
+*/
 import React from "react";
+import { Link } from "react-router-dom";
 import emailjs from 'emailjs-com';
 const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
@@ -18,11 +25,23 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative bg-secondary">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap text-white">
-        <div className="lg:w-3/4 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <div className="container lg:w-100 h-100 px-5 py-10 mx-auto flex sm:flex-nowrap text-white">
+        <div className="lg:w-3/4 h-100 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe title="resume" src="./Alex_Ov_Resume.pdf" width="100%" height="100%" />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                GitHub
+              </h2>
+              <Link to="https://github.com/OvAlexander" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">OvAlexander</Link>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                LinkedIn
+              </h2>
+              <Link to="https://www.linkedin.com/in/alexander-ov/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">linkedin.com/in/alexander-ov</Link>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                YouTube
+              </h2>
+              <Link to="https://www.youtube.com/channel/UCorcUB6JoebEWA81o-xSuXw" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">@alexanderlov</Link>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
