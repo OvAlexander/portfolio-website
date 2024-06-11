@@ -45,7 +45,7 @@ export default function ProjectList(){
                         </div>  
                     </a>
                     </div>
-                    <div className="w-2/5 p-4">
+                    <div className="w-2/5 h-40 p-4 text-ellipsis overflow-hidden text-left">
                         <p>{project.description}</p>
                     </div>
                 </div>

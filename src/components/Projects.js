@@ -2,7 +2,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 import { DesktopComputerIcon } from "@heroicons/react/solid";
 import React from "react";
 import { hardware_projects, projects } from "../data";
-
+// ARCHIVE
 export default function Projects() {
   return (
     <section
