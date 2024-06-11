@@ -4,14 +4,16 @@ TODO List for Website
 
 ### Todo
 
-- [ ] Create gallery of projects
 - [ ] Add login
 - [ ] Add calender page
-- [ ] Add conferences
+- [ ] Make site responsive
+- [ ] Make site Accessible
 
 ### In Progress
 
+- [ ] Create gallery of projects
 - [ ] Create blog
+- [ ] Add conferences
 
 ### Done ✓
 
