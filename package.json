@@ -27,6 +27,7 @@
     "eject": "react-scripts eject"
   },
   "start_url": ".",
+  "homepage": "/",
   "eslintConfig": {
     "extends": [
       "react-app",
