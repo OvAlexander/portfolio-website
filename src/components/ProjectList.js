@@ -28,11 +28,11 @@ export default function ProjectList(){
                                     src={project.image}
                                     className="h-auto max-w-full lg:w-[30vw] mx-auto rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
                                 />
-                                <p className="text-lg font-medium">{project.title}</p>
-                                <p className="text-center text-xl">{project.subtitle}</p>
+                                <p className="text-2xl">{project.title}</p>
+                                <p className="text-md">{project.subtitle}</p>
                             </a>
                         </div>
-                        <div className="flex-initial text-left text-2xl px-5">
+                        <div className="flex-initial text-left text-xl px-5">
                             <p>{project.description}</p>
                         </div>
                     </div>
@@ -54,11 +54,11 @@ export default function ProjectList(){
                                     src={project.image}
                                     className="h-auto max-w-full lg:w-[30vw] mx-auto rounded-xl object-cover shadow-xl transition group-hover:color-[75%]"
                                 />
-                                <p className="text-lg font-medium">{project.title}</p>
-                                <p className="text-center text-xl">{project.subtitle}</p>
+                                <p className="text-2xl">{project.title}</p>
+                                <p className="text-md">{project.subtitle}</p>
                             </a>
                         </div>
-                        <div className="flex-initial text-left text-2xl px-5">
+                        <div className="flex-initial text-left text-xl px-5">
                             <p>{project.description}</p>
                         </div>
                     </div>
