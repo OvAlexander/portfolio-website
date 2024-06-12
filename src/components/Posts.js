@@ -21,7 +21,7 @@ const Posts = () => {
         environments allowing me to make large sweeping changes and have checkpoints this will allow me to do comparisons of old and new code while also being able to rollback anytime
         Going forward into the development of this site I will attempt to integrate more responsiveness from the start and look into other accessibility features such as alt text.
         Aside from responsiveness changes I added a new tab for research where I will display my conferences and publications.`,
-        author: "Alex",
+        author: "Alex Ov",
         imgUrl: "./blog_reponsive.png",
         },
         {
