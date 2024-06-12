@@ -47,10 +47,10 @@ export default function Contact() {
             <a href="/#contact" className="text-indigo-400">
               alexanderleeov@email.com
             </a>
-            <h2 className="font-semibold">
+            <h2 className="font-semibold"> 
               PHONE
             </h2>
-            <p className="">909-343-2257</p>
+            <p className="">(619)800-4283</p>
         </div>
         </div>
         <form

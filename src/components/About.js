@@ -8,7 +8,7 @@ export default function About() {
           </h1>
           <p className="mb-2 text-xl lg:text-3xl">
           I am a highly motivated computer engineer seeking opportunities to employ my skills in the design of impactful robots and apps in the U.S.
-          Utilizing my strong background in robotics and software engineer.
+          Utilizing my strong background in robotics and software engineering.
           </p>
           <div className="flex justify-center">
             <a href="#contact" className="inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-500 rounded text-lg">Contact Me</a>
