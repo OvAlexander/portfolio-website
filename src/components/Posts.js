@@ -34,7 +34,7 @@ const Posts = () => {
         },
     ];
     return (
-        <div className="posts-container">
+        <div className="">
         {blogPosts.map((post, index) => (
             <Post key={index} index={index} post={post} />
         ))}

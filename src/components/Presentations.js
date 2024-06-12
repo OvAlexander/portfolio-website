@@ -36,9 +36,9 @@ export default function Presentations() {
   return (
     <div>
         <div>
-            <h1>Presentations</h1>
+            <h1 className="bg-primary text-5xl px-3">Presentations</h1>
         </div>
-        <div className="presentation-container">
+        <div className="bg-secondary text-xl px-3">
             {presentationList.map((presentation, index) => (
                 <Presentation key={index} index={index} presentation={presentation} />
             ))}

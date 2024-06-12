@@ -5,7 +5,7 @@ function Project() {
         <main>
             <div>
                 <Navbar />
-                <div className="mx-auto lg:px-3 ">
+                <div className="mx-auto">
                         <ProjectList />
                 </div>
             </div>

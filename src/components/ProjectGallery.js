@@ -11,7 +11,7 @@ export default function ProjectGallery(){
         "./mine-clicker-game.gif",
     ];
     return (
-        <div className="w-full bg-sea text-center text-black">
+        <div className="w-full bg-primary text-center text-white">
             <CameraIcon className="mx-auto inline-block w-10" />
             <h1 className="mb-3   text-3xl lg:text-5xl font-medium">Project Gallery</h1>            
             <a href="/project">

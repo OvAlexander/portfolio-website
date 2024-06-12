@@ -24,36 +24,34 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative bg-secondary">
+    <section id="contact" className="relative bg-primary lg:flex">
       <div className="container lg:w-100 h-100 px-5 py-10 mx-auto flex sm:flex-nowrap text-white">
         <div className="lg:w-3/4 h-100 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe title="resume" src="./Alex_Ov_Resume.pdf" width="100%" height="100%" />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                GitHub
-              </h2>
-              <Link to="https://github.com/OvAlexander" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">OvAlexander</Link>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                LinkedIn
-              </h2>
-              <Link to="https://www.linkedin.com/in/alexander-ov/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">linkedin.com/in/alexander-ov</Link>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                YouTube
-              </h2>
-              <Link to="https://www.youtube.com/channel/UCorcUB6JoebEWA81o-xSuXw" target="_blank" rel="noopener noreferrer" className="text-indigo-400 leading-relaxed">@alexanderlov</Link>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a href="/#" className="text-indigo-400 leading-relaxed">
-                alexanderleeov@email.com
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">909-343-2257</p>
-            </div>
-          </div>
+        <div className="lg:w-3/4 px-6 mt-4 lg:mt-0">
+            <h2 className="font-semibold">
+              GitHub
+            </h2>
+            <Link to="https://github.com/OvAlexander" target="_blank" rel="noopener noreferrer" className="text-indigo-400">OvAlexander</Link>
+            <h2 className="font-semibold">
+              LinkedIn
+            </h2>
+            <Link to="https://www.linkedin.com/in/alexander-ov/" target="_blank" rel="noopener noreferrer" className="text-indigo-400">linkedin.com/in/alexander-ov</Link>
+            <h2 className="font-semibold">
+              YouTube
+            </h2>
+            <Link to="https://www.youtube.com/channel/UCorcUB6JoebEWA81o-xSuXw" target="_blank" rel="noopener noreferrer" className="text-indigo-400">@alexanderlov</Link>
+            <h2 className="font-semibold">
+              EMAIL
+            </h2>
+            <a href="/#contact" className="text-indigo-400">
+              alexanderleeov@email.com
+            </a>
+            <h2 className="font-semibold">
+              PHONE
+            </h2>
+            <p className="">909-343-2257</p>
+        </div>
         </div>
         <form
           netlify

@@ -11,12 +11,6 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          {/* <a href="/#projects" className="mr-5 hover:text-white">
-            Past Work
-          </a>
-          <a href="/#skills" className="mr-5 hover:text-white">
-            Skills
-          </a> */}
           <a href="/blog" className="mr-5 hover:text-white">
             Blog
           </a>
@@ -26,37 +20,32 @@ export default function Navbar() {
           <a href="/research" className="mr-5 hover:text-white">
             Research
           </a>
-          {/* <Link to="/blog" className="mr-5 hover:text-white">Blog</Link>
-          {/* <a href="/blog" className="mr-5 hover:text-white">
-            Blog
-          </a> */}
-          {/* <a href="/#testimonials" className="mr-5 hover:text-white">
-            References
-          </a> */}
         </nav>
-        {/* <a
-          className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
-            href="https://github.com/OvAlexander"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
+        <div className="">
+          {/* <a
+            className="items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded"
+              href="https://github.com/OvAlexander"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
           </a>
-        <a
-          className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
-            href="https://www.linkedin.com/in/alexander-ov/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a
+            className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
+              href="https://www.linkedin.com/in/alexander-ov/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             linkedin
-          </a> */}
-        <a
-          href="/#contact"
-          className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
-        >
-          Contact Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+            </a> */}
+          <a
+            href="/#contact"
+            className="inline-flex items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-secondary rounded text-base mt-4 md:mt-0"
+          >
+            Contact Me
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
+          </a>
+        </div>
       </div>
     </header>
   );
