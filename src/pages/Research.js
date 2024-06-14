@@ -9,6 +9,9 @@ function Research() {
             <Navbar />
             <Presentations />
             <Publications />
+            <div className="bg-secondary">
+              <p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />&nbsp;</p>
+            </div>
           </div>
       </main>
     );
